@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  flightroute:
+    container_name: flightroute
+    build: .
+    env_file:
+      - .env
+    networks:
+      - nginx_net
+networks:
+  nginx_net:
+    external: true

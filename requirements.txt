@@ -1,0 +1,10 @@
+python-dotenv
+plotly
+Pillow
+aiohttp
+kaleido
+hikari[speedups]
+hikari[server]
+black
+hikari-yuyo[tanjun]
+uvloop
